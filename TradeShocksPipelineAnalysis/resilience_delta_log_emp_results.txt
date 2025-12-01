@@ -1,0 +1,30 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     delta_log_emp_17_19   R-squared:                       0.007
+Model:                             OLS   Adj. R-squared:                  0.006
+Method:                  Least Squares   F-statistic:                     4.098
+Date:                 Mon, 24 Nov 2025   Prob (F-statistic):            0.00258
+Time:                         22:39:37   Log-Likelihood:                 3715.9
+No. Observations:                 3141   AIC:                            -7422.
+Df Residuals:                     3136   BIC:                            -7392.
+Df Model:                            4                                         
+Covariance Type:                   HC1                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.0152      0.002      9.256      0.000       0.012       0.018
+tp            -0.7802      3.012     -0.259      0.796      -6.683       5.122
+tp_x_inc       7.3216      3.860      1.897      0.058      -0.244      14.887
+tp_x_ba        3.9944      2.842      1.406      0.160      -1.576       9.565
+tp_x_move     -1.0839      1.631     -0.665      0.506      -4.281       2.113
+==============================================================================
+Omnibus:                     1590.166   Durbin-Watson:                   1.892
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           151835.056
+Skew:                           1.474   Prob(JB):                         0.00
+Kurtosis:                      36.933   Cond. No.                     3.58e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+[2] The condition number is large, 3.58e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
